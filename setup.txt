@@ -1,0 +1,17 @@
+Setup Instructions:
+
+1. Hosting:
+   - Upload the contents of this folder to GitHub and enable GitHub Pages in repository settings.
+   - Or use Netlify: drag and drop the folder to deploy.
+
+2. Firebase Setup:
+   - Go to https://firebase.google.com/ and create a project.
+   - Enable Firestore Database.
+   - Replace the firebaseConfig object in both JS files with your Firebase config.
+
+3. Email Updates:
+   - Use Firebase Functions or a third-party service like SendGrid to send emails to j.waite26@gmail.com when attendees are added.
+   - Firebase Functions can trigger on Firestore writes and send emails using an API.
+
+4. Security:
+   - Consider adding basic validation and rate limiting if the site will be public.
